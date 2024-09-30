@@ -1,0 +1,2 @@
+#!/bin/bash
+grep -n '^' | LC_ALL=C grep -Po '^\d*[13579]:\K.*'
